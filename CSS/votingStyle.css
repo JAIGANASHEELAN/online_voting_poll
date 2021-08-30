@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: rgba(89, 156, 227, 0.5);
+    margin: 0;
+}
+.headerSec{
+    padding: 10px;
+    font-family: cursive;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 13%;
+}
+select[name="role"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 14%;
+}
+button{
+    background-color: rgb(157, 157, 206);
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 8em;
+}
+button:hover{
+    background-color: rgb(15, 15, 19);
+    color: aliceblue;
+    transition: ease-in;
+    transform: translateY(-5px);
+    box-shadow: 6px 6px lightgreen;
+    font-family: cursive;
+
+}
+input[placeholder="address"]{
+    width: 30%;
+
+}
+.up{
+    text-align: center;
+    padding: 10px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 35%;
+}
+#roles{
+    width: 120px;
+
+}
+input[type="file"]{
+    padding: 4px;
+    width: 100px;
+}

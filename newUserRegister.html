@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS\votingStyle.css">
+</head>
+<body>
+    <div class="headerSec">
+        <h1>Online Voting Pole!</h1>
+        <hr>
+    </div>
+    <form action="register.php" method="POST" enctype="multipart/form-data" >
+        <div>
+            <h2>Please fill your Details </h2>
+            <input type="text" name="Fname" placeholder="First Name" required>
+            <input type="text" name="Lname" placeholder="Last Name" required><br><br>
+            <input type="email" name="email" placeholder="Email ID">
+            <input type="number" name="mobile" placeholder="Phone Number" required><br><br>
+            <input type="password" name="password" placeholder="password" required>
+            <input type="password" name="cpassword" placeholder="confirm password" required><br><br>
+            <input type="text" name="address" placeholder="address"  required><br><br>
+            <center>
+                <section class="up" >
+                    upload photos:<input type="file" name="img" id="" multiple>of your VOter ID
+                
+                </section >
+                <br><br>
+                <section class="up">
+                    select your role:<select name="role"  id="role" required>
+                        <option value="1" selected>Voter</option>
+                        <option value="2">Group</option>
+                    </select>
+                </section>
+            </center>
+            <br><br>
+            
+            
+            <button>Register</button><br><br>
+            already user? <a href="indexpage.html" target="_blank">login Here!</a>
+        </div>
+    </form>
+</body>
+</html>
